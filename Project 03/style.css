@@ -3,3 +3,31 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #222222;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  padding: 1em 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#clock {
+  padding: .3em .5em;
+  background-color: #ffc436;
+  border-radius: 0.3em;
+  font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
