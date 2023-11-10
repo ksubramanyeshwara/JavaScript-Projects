@@ -12,18 +12,12 @@ form.addEventListener("submit", function (e) {
     result.innerHTML = "Please enter valid Weight in KG";
   } else {
     const bmi = parseInt(weight / ((height * height) / 10000).toFixed(2));
-    switch (true) {
-      case bmi < 18.6:
-        result.innerHTML = `<span>Your BMI is ${bmi} and You are Under Weight</span>`;
-        break;
-      case bmi >= 18.6 && bmi < 24.9:
-        result.innerHTML = `<span>Your BMI is ${bmi} and Your Weight is Normal</span>`;
-        break;
-      case bmi >= 24.9:
-        result.innerHTML = `<span>Your BMI is ${bmi} and You are Over Weight</span>`;
-        break;
-      default:
-        result.innerHTML = `<span>Enter Valid Details</span>`;
+    if (bmi <= 18.6) {
+      result.innerHTML = `<span>Your BMI is ${bmi} and You are Under Weight</span>`;
+    } else if (bmi > 18.6 && bmi <= 24.9) {
+      result.innerHTML = `<span>Your BMI is ${bmi} and Your Weight is Normal</span>`;
+    } else {
+      result.innerHTML = `<span>Your BMI is ${bmi} and You are Over Weight</span>`;
     }
   }
 });
