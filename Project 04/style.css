@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1em 0;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 1em 0;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 1.5em 0 0 0;
+}
+
+.form {
+  margin: 1.5em 0 0 0;
+}
+
+.inputField {
+  width: 20vw;
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.guessButton {
+  padding: 0.3em 2em;
+  margin: 0 0 0 2em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 0.3em;
+  color: #fff;
+  background-color: #434343;
+  cursor: pointer;
+}
+
+.result {
+  margin: 1.5em 0 0 0;
+}
