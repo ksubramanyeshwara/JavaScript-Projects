@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #212121;
+  color: #fff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0 0 0;
+}
+
+.todo-input {
+  padding: 0.5em 0 0.5em 1em;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 0.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.add-todo-btn {
+  border: none;
+  color: #fff;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+  background-color: #2ebe1e;
+  margin: 0 0 0 -5.7em;
+}
+
+.todo-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0 0 0;
+  border: 1px solid #fff;
+  width: 200px;
+  height: 50px;
+}
+
+.check {
+  color: #fff;
+  background-color: #fff;
+}
+
+.todo-name {
+  margin: 0 0 0 1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.strike-text {
+  text-decoration: line-through;
+}
+
+.edit-delete{
+  color: #fff;
+  margin: 0 0 0 1em;
+  font-size: .8em;
+  cursor: pointer;
+}
