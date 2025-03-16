@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colored Button Generator and Background color changer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate Colored Buttons</h1>
+      <div class="button-container"">
+        <h3>Enter Color Code</h3>
+        <h4>Supported Format: Hex</h4>
+        <input type="text" id="color" />
+        <div id="buttons">
+            <button type="button" class="button" id="generate-button">Generate Random Color</button>
+            <button type="button" class="button" id="create-button">Create Button</button>
+        </div>
+      </div>
+      <h2>Generated Buttons</h2>
+      <div id="generated-buttons-container">
+      </div>
+    </div>
+  </body>
+</html>
