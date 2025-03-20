@@ -1,4 +1,4 @@
-# Quote of the Day
+# ThoughtVerse
 
 ## Objective: Create a simple website that fetches and displays a random quote from the API.
 
@@ -22,3 +22,7 @@ https://api.freeapi.app/api/v1/public/quotes/quote/random
 ### Documentation
 
 https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote
+
+### Screenshot
+
+![ThoughtVerse](image.png)
